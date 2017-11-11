@@ -17,5 +17,8 @@ namespace FirstMediaCapture
 	public:
 		MainPage();
 
+	private:
+		void PhotoButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void VideoButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

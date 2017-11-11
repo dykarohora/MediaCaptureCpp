@@ -25,3 +25,15 @@ MainPage::MainPage()
 {
 	InitializeComponent();
 }
+
+
+void FirstMediaCapture::MainPage::PhotoButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
+
+
+void FirstMediaCapture::MainPage::VideoButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
